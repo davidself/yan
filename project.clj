@@ -7,4 +7,4 @@
                           [org.clojure/clojurescript "0.0-2740"]
                           [org.omcljs/om "0.8.7"]
                           [racehub/om-bootstrap "0.3.4"]
-                          [com.datomic/datomic-free "0.9.5130"]])
+                          [com.datomic/datomic-free "0.9.5130" :exclusions [joda-time]]])
